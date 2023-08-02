@@ -36,7 +36,7 @@ public class JilPatel8885062Assignment4Test
     
     
     [Test]
-    public void insuranceQuote01_25_3and0_4500()
+    public void InsuranceQuote01_25_3and0_4500()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -69,7 +69,7 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote02_25_3and2_4500()
+    public void InsuranceQuote02_25_3and2_4500()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -102,7 +102,7 @@ public class JilPatel8885062Assignment4Test
         }
     }
     [Test]
-    public void insuranceQuote03_35_10and4_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
+    public void InsuranceQuote03_35_10and4_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -135,7 +135,7 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote04_27_3and0_Phone_Number_must_follow_the_patterns_111_111_1111_or__111_111_1111()
+    public void InsuranceQuote04_27_3and0_Phone_Number_must_follow_the_patterns_111_111_1111_or__111_111_1111()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -167,7 +167,7 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("phone-error")).Text, Is.EqualTo("Phone Number must follow the patterns 111-111-1111 or (111)111-1111"));
     }
     [Test]
-    public void insuranceQuote05_28_3and0_Must_be_a_valid_email_address()
+    public void InsuranceQuote05_28_3and0_Must_be_a_valid_email_address()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -208,8 +208,9 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("email-error")).Text, Is.EqualTo("Must be a valid email address"));
     }
     [Test]
-    public void insuranceQuote06_35_17and1_Postal_Code_must_follow_the_pattern_A1A_1A1()
+    public void InsuranceQuote06_35_17and1_Postal_Code_must_follow_the_pattern_A1A_1A1()
     {
+
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 840);
@@ -241,8 +242,9 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("postalCode-error")).Text, Is.EqualTo("Postal Code must follow the pattern A1A 1A1"));
     }
     [Test]
-    public void insuranceQuote07_ageOmited_5and0_Age_is_required()
+    public void InsuranceQuote07_ageOmited_5and0_Age_is_required()
     {
+
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 840);
@@ -269,8 +271,9 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("age-error")).Text, Is.EqualTo("Age (>=16) is required"));
     }
     [Test]
-    public void insuranceQuote08_faultAccidentOmited_37_8_Number_of_accidents_is_required()
+    public void InsuranceQuote08_faultAccidentOmited_37_8_Number_of_accidents_is_required()
     {
+
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 840);
@@ -296,7 +299,7 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("accidents-error")).Text, Is.EqualTo("Number of accidents is required"));
     }
     [Test]
-    public void insuranceQuote09_Driving_Experience_Omitted_45and0_Years_of_experience_is_required()
+    public void InsuranceQuote09_Driving_Experience_Omitted_45and0_Years_of_experience_is_required()
     {
 
         //Arrange
@@ -326,8 +329,9 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote10_34_3and1_3285()
+    public void InsuranceQuote10_34_3and1_3285()
     {
+
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1083, 824);
@@ -359,7 +363,7 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote11_40_5and2_3285()
+    public void InsuranceQuote11_40_5and2_3285()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -403,7 +407,7 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote12_60_1and10_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
+    public void InsuranceQuote12_60_1and10_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -436,7 +440,7 @@ public class JilPatel8885062Assignment4Test
         }
     }
     [Test]
-    public void insuranceQuote13_5_12and4_Please_enter_a_value_greater_than_or_equal_to_16()
+    public void InsuranceQuote13_5_12and4_Please_enter_a_value_greater_than_or_equal_to_16()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -475,7 +479,7 @@ public class JilPatel8885062Assignment4Test
         Assert.That(driver.FindElement(By.Id("age-error")).Text, Is.EqualTo("Please enter a value greater than or equal to 16."));
     }
     [Test]
-    public void insuranceQuote14_20_2and15_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
+    public void InsuranceQuote14_20_2and15_No_Insurance_for_you_Too_many_accidents_go_take_a_course()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
@@ -509,7 +513,7 @@ public class JilPatel8885062Assignment4Test
     }
 
     [Test]
-    public void insuranceQuote15_20_5and1_No_Insurance_fo_ryou_Driver_Age_Experience_Not_Correct()
+    public void InsuranceQuote15_20_5and1_No_Insurance_fo_ryou_Driver_Age_Experience_Not_Correct()
     {
         //Arrange
         driver.Navigate().GoToUrl(baseUrl);
