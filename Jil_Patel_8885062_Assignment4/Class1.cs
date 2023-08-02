@@ -39,7 +39,7 @@ public class JilPatel8885062Assignment4Test
     public void insuranceQuote01_25_3and0_4500()
     {
         //Arrange
-        driver.Navigate().GoToUrl("http://localhost/prog8170a04/getQuote.html");
+        driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1082, 824);
         
         //Act
@@ -72,7 +72,7 @@ public class JilPatel8885062Assignment4Test
     public void insuranceQuote02_25_3and2_4500()
     {
         //Arrange
-        driver.Navigate().GoToUrl("http://localhost/prog8170a04/getQuote.html");
+        driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 840);
         
         //Act
@@ -170,7 +170,7 @@ public class JilPatel8885062Assignment4Test
     public void insuranceQuote05_28_3and0_Must_be_a_valid_email_address()
     {
         //Arrange
-        driver.Navigate().GoToUrl("http://localhost/prog8170a04/getQuote.html");
+        driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1083, 824);
 
         //Act
@@ -300,7 +300,7 @@ public class JilPatel8885062Assignment4Test
     {
 
         //Arrange
-        driver.Navigate().GoToUrl("http://localhost/prog8170a04/getQuote.html");
+        driver.Navigate().GoToUrl(baseUrl);
         driver.Manage().Window.Size = new System.Drawing.Size(1552, 840);
         
         //Act
